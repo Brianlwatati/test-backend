@@ -1,0 +1,74 @@
+[
+    {
+        "home_player": "fred",
+        "away_player": "viper",
+        "home_team": "Arsenal",
+        "away_team": "Barcelona",
+        "competition": "eFootball Champions League",
+        "kickoff_time": "2026-05-29 21:00:00",
+        "home_odds": 2.79,
+        "draw_odds": 3.36,
+        "away_odds": 2.2,
+        "status": "pending"
+    },
+    {
+        "home_player": "andrew",
+        "away_player": "cleo",
+        "home_team": "Arsenal",
+        "away_team": "Barcelona",
+        "competition": "eFootball Champions League",
+        "kickoff_time": "2026-05-29 21:00:00",
+        "home_odds": 2.36,
+        "draw_odds": 3.23,
+        "away_odds": 2.65,
+        "status": "pending"
+    },
+    {
+        "home_player": "eminem",
+        "away_player": "leon",
+        "home_team": "Arsenal",
+        "away_team": "Barcelona",
+        "competition": "eFootball Champions League",
+        "kickoff_time": "2026-05-29 21:00:00",
+        "home_odds": 2.36,
+        "draw_odds": 3.23,
+        "away_odds": 2.65,
+        "status": "pending"
+    },
+    {
+        "home_player": "eminem",
+        "away_player": "leon",
+        "home_team": "Arsenal",
+        "away_team": "Barcelona",
+        "competition": "eFootball Champions League",
+        "kickoff_time": "2026-05-29 21:00:00",
+        "home_odds": 2.36,
+        "draw_odds": 3.23,
+        "away_odds": 2.65,
+        "status": "pending"
+    },
+    {
+        "home_player": "fred",
+        "away_player": "depliero",
+        "home_team": "Arsenal",
+        "away_team": "Barcelona",
+        "competition": "eFootball Champions League",
+        "kickoff_time": "2026-05-29 21:00:00",
+        "home_odds": 2.36,
+        "draw_odds": 3.23,
+        "away_odds": 2.65,
+        "status": "pending"
+    },
+    {
+        "home_player": "kai",
+        "away_player": "'depliero'",
+        "home_team": "Arsenal",
+        "away_team": "Barcelona",
+        "competition": "eFootball Champions League",
+        "kickoff_time": "2026-05-29 21:00:00",
+        "home_odds": 2.36,
+        "draw_odds": 3.23,
+        "away_odds": 2.65,
+        "status": "pending"
+    }
+]

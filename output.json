@@ -1,0 +1,82 @@
+[
+  {
+    "match": 1,
+    "homeTeam": "West Ham",
+    "awayTeam": "C. Palace",
+    "H": 2.31,
+    "D": 3.02,
+    "A": 2.84
+  },
+  {
+    "match": 2,
+    "homeTeam": "Bournemouth",
+    "awayTeam": "Manchester Blue",
+    "H": 3.9,
+    "D": 3.98,
+    "A": 1.65
+  },
+  {
+    "match": 3,
+    "homeTeam": "A.Villa",
+    "awayTeam": "Brighton",
+    "H": 2.23,
+    "D": 2.97,
+    "A": 3.02
+  },
+  {
+    "match": 4,
+    "homeTeam": "N.Forest",
+    "awayTeam": "Brentford",
+    "H": 2.69,
+    "D": 3.31,
+    "A": 2.27
+  },
+  {
+    "match": 5,
+    "homeTeam": "Southampton",
+    "awayTeam": "Wolves",
+    "H": 2.41,
+    "D": 3.11,
+    "A": 2.64
+  },
+  {
+    "match": 6,
+    "homeTeam": "Leeds",
+    "awayTeam": "Spurs",
+    "H": 3.17,
+    "D": 3.6,
+    "A": 1.92
+  },
+  {
+    "match": 7,
+    "homeTeam": "Newcastle",
+    "awayTeam": "Manchester Red",
+    "H": 2.29,
+    "D": 3.02,
+    "A": 2.89
+  },
+  {
+    "match": 8,
+    "homeTeam": "Everton",
+    "awayTeam": "Fulham",
+    "H": 2.56,
+    "D": 3.2,
+    "A": 2.43
+  },
+  {
+    "match": 9,
+    "homeTeam": "Leicester",
+    "awayTeam": "London Reds",
+    "H": 3.9,
+    "D": 3.97,
+    "A": 1.65
+  },
+  {
+    "match": 10,
+    "homeTeam": "Liverpool",
+    "awayTeam": "London Blues",
+    "H": 1.73,
+    "D": 3.35,
+    "A": 4.17
+  }
+]
