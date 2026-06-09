@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGO_URI);
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/colleges", require("./routes/collegeRoute"));
 app.use("/api/lessons", require("./routes/lessonRoute"));
-app.use("/api/enrollments", require("./routes/enrollmentRoute"));
+app.use("/api/enrollments", require("./routes/enrolRoutes"));
 
 const PORT = process.env.PORT || 5000;
 
