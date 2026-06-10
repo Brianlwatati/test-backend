@@ -11,6 +11,23 @@ exports.getMatches = async (req, res) => {
   }
 };
 
+exports.getMatchTable = async (req, res) => {
+  try {
+    const matches = await Match.find()
+    // Analyze the matches to create a table of teams with their recent form and momentum
+    // This is a placeholder for the actual analysis logic
+    const teamStats = {};
+    matches.forEach(match => {
+      const { homeTeam, awayTeam, outcome } = match;
+      if (!teamStats[homeTeam]) teamStats[homeTeam] = { recentForm: [], momentum: 0 };
+      if (!teamStats[awayTeam]) teamStats[awayTeam] = { recentForm: [], momentum: 0 };    
+    });
+    res.json(teamStats);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
 exports.getMatchById = async (req, res) => {
   try {
     const match = await Match.findById(req.params.id);

@@ -52,4 +52,9 @@ const matchSchema = new mongoose.Schema({
   timestamps: true,
 });
 
+// Indexes that support efficient historical form lookup by team name and recent updates.
+matchSchema.index({ homeTeam: 1, updatedAt: -1 });
+matchSchema.index({ awayTeam: 1, updatedAt: -1 });
+matchSchema.index({ outcome: 1 });
+
 module.exports = mongoose.model("Match", matchSchema);

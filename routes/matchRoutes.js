@@ -22,7 +22,7 @@ router.get("/", getMatches);
 router.get("/:id", getMatchById);
 router.put("/:id", updateMatch);
 router.put("/result/single", updateMatchResult);
-router.put("/result/batch", updateMatchResultBatch);
+router.post("/result/batch", updateMatchResultBatch);
 router.delete("/:id", deleteMatch);
 
 module.exports = router;
