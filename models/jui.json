@@ -1,1 +1,412 @@
-[{"parentMatchId":27748425,"seasonId":2781007,"competitionId":1,"homeTeam":"West Ham","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_WHU.png","awayTeam":"C. Palace","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_CRY.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":2.31,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":3.02,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":2.84,"subTypeId":"1X2","oddType":"1X2"}]}]},{"parentMatchId":27748427,"seasonId":2781007,"competitionId":1,"homeTeam":"Bournemouth","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_BOU.png","awayTeam":"Manchester Blue","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_MNC.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":3.9,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":3.98,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":1.65,"subTypeId":"1X2","oddType":"1X2"}]}]},{"parentMatchId":27748429,"seasonId":2781007,"competitionId":1,"homeTeam":"A.Villa","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_AST.png","awayTeam":"Brighton","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_BHA.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":2.23,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":2.97,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":3.02,"subTypeId":"1X2","oddType":"1X2"}]}]},{"parentMatchId":27748431,"seasonId":2781007,"competitionId":1,"homeTeam":"N.Forest","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_NOT.png","awayTeam":"Brentford","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_BRE.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":2.69,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":3.31,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":2.27,"subTypeId":"1X2","oddType":"1X2"}]}]},{"parentMatchId":27748433,"seasonId":2781007,"competitionId":1,"homeTeam":"Southampton","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_SOU.png","awayTeam":"Wolves","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_WOL.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":2.41,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":3.11,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":2.64,"subTypeId":"1X2","oddType":"1X2"}]}]},{"parentMatchId":27748434,"seasonId":2781007,"competitionId":1,"homeTeam":"Leeds","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_LEE.png","awayTeam":"Spurs","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_TOT.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":3.17,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":3.6,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":1.92,"subTypeId":"1X2","oddType":"1X2"}]}]},{"parentMatchId":27748437,"seasonId":2781007,"competitionId":1,"homeTeam":"Newcastle","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_NEW.png","awayTeam":"Manchester Red","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_MNU.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":2.29,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":3.02,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":2.89,"subTypeId":"1X2","oddType":"1X2"}]}]},{"parentMatchId":27748439,"seasonId":2781007,"competitionId":1,"homeTeam":"Everton","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_EVE.png","awayTeam":"Fulham","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_FUL.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":2.56,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":3.2,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":2.43,"subTypeId":"1X2","oddType":"1X2"}]}]},{"parentMatchId":27748440,"seasonId":2781007,"competitionId":1,"homeTeam":"Leicester","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_LEI.png","awayTeam":"London Reds","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_ARS.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":3.9,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":3.97,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":1.65,"subTypeId":"1X2","oddType":"1X2"}]}]},{"parentMatchId":27748441,"seasonId":2781007,"competitionId":1,"homeTeam":"Liverpool","homeImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_LIV.png","awayTeam":"London Blues","awayImage":"https://storage.googleapis.com/mbg-assets/team_logo/team_1_CHE.png","markets":[{"subTypeId":"1X2","oddType":"1X2","outcomes":[{"outcomeId":"1","outcomeKey":"1","outcomeName":"Home Team wins","oddValue":1.73,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"X","outcomeKey":"X","outcomeName":"Draw","oddValue":3.35,"subTypeId":"1X2","oddType":"1X2"},{"outcomeId":"2","outcomeKey":"2","outcomeName":"Away Team wins","oddValue":4.17,"subTypeId":"1X2","oddType":"1X2"}]}]}]
+[
+  {
+    "parentMatchId": 27748425,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "West Ham",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_WHU.png",
+    "awayTeam": "C. Palace",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_CRY.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 2.31,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 3.02,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 2.84,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parentMatchId": 27748427,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "Bournemouth",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_BOU.png",
+    "awayTeam": "Manchester Blue",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_MNC.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 3.9,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 3.98,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 1.65,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parentMatchId": 27748429,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "A.Villa",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_AST.png",
+    "awayTeam": "Brighton",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_BHA.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 2.23,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 2.97,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 3.02,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parentMatchId": 27748431,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "N.Forest",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_NOT.png",
+    "awayTeam": "Brentford",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_BRE.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 2.69,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 3.31,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 2.27,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parentMatchId": 27748433,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "Southampton",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_SOU.png",
+    "awayTeam": "Wolves",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_WOL.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 2.41,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 3.11,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 2.64,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parentMatchId": 27748434,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "Leeds",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_LEE.png",
+    "awayTeam": "Spurs",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_TOT.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 3.17,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 3.6,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 1.92,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parentMatchId": 27748437,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "Newcastle",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_NEW.png",
+    "awayTeam": "Manchester Red",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_MNU.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 2.29,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 3.02,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 2.89,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parentMatchId": 27748439,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "Everton",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_EVE.png",
+    "awayTeam": "Fulham",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_FUL.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 2.56,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 3.2,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 2.43,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parentMatchId": 27748440,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "Leicester",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_LEI.png",
+    "awayTeam": "London Reds",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_ARS.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 3.9,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 3.97,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 1.65,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parentMatchId": 27748441,
+    "seasonId": 2781007,
+    "competitionId": 1,
+    "homeTeam": "Liverpool",
+    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_LIV.png",
+    "awayTeam": "London Blues",
+    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_CHE.png",
+    "markets": [
+      {
+        "subTypeId": "1X2",
+        "oddType": "1X2",
+        "outcomes": [
+          {
+            "outcomeId": "1",
+            "outcomeKey": "1",
+            "outcomeName": "Home Team wins",
+            "oddValue": 1.73,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "X",
+            "outcomeKey": "X",
+            "outcomeName": "Draw",
+            "oddValue": 3.35,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          },
+          {
+            "outcomeId": "2",
+            "outcomeKey": "2",
+            "outcomeName": "Away Team wins",
+            "oddValue": 4.17,
+            "subTypeId": "1X2",
+            "oddType": "1X2"
+          }
+        ]
+      }
+    ]
+  }
+]

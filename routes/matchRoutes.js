@@ -3,19 +3,26 @@ const router = express.Router();
 
 const auth = require("../middleware/auth");
 const {
-  createMatch,
   getMatches,
   getMatchById,
   updateMatch,
   deleteMatch,
 } = require("../controllers/matches/matchController");
 
-router.use(auth);
+const {
+  createMatch,
+  updateMatchResult,
+  updateMatchResultBatch,
+} = require("../controllers/matches/createMatch");
+
+// router.use(auth);
 
 router.post("/", createMatch);
 router.get("/", getMatches);
 router.get("/:id", getMatchById);
 router.put("/:id", updateMatch);
+router.put("/result/single", updateMatchResult);
+router.put("/result/batch", updateMatchResultBatch);
 router.delete("/:id", deleteMatch);
 
 module.exports = router;

@@ -1,26 +1,6 @@
 const Match = require("../../models/Match");
 
-exports.createMatch = async (req, res) => {
-  try {
-    const payload = req.body;
 
-    if (Array.isArray(payload)) {
-      if (payload.length === 0) {
-        return res.status(400).json({ message: "Request body must contain one or more matches" });
-      }
-
-      const matches = await Match.insertMany(payload);
-      return res.status(201).json(matches);
-    }
-
-    const { match, homeTeam, awayTeam, H, D, A, outcome } = payload;
-    const newMatch = new Match({ match, homeTeam, awayTeam, H, D, A, outcome });
-    await newMatch.save();
-    res.status(201).json(newMatch);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
-  }
-};
 
 exports.getMatches = async (req, res) => {
   try {

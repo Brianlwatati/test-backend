@@ -33,6 +33,21 @@ const matchSchema = new mongoose.Schema({
     default: null,
     description: "Predicted or actual match outcome: H = home win, D = draw, A = away win",
   },
+  homeScore: {
+    type: Number,
+    default: null,
+    description: "Home team's final score",
+  },
+  awayScore: {
+    type: Number,
+    default: null,
+    description: "Away team's final score",
+  },
+  resultDetails: {
+    type: mongoose.Schema.Types.Mixed,
+    default: null,
+    description: "Additional match result details (penalties, injury time, etc.)",
+  },
 }, {
   timestamps: true,
 });

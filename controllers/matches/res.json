@@ -1,0 +1,195 @@
+{
+    "code": 200,
+    "message": "PlaceBet Success!\nPossible Win KES:5.44",
+    "data": {
+        "bet_id": "QZL60-VTL-VF9UODBZSPR076",
+        "currency": "KES",
+        "balance": 1.09,
+        "pwa": 5.44,
+        "launchUrl": "https://lite.playbetman.com/turbo/WRR8X/uAugKMPlEFLdb8bzRphZ2XiItVIdpTDjkVP45iXRI9bUkakZCjCIZ-f8q2JXiJyujVKN3xdn1D1wVrX2mcElH0A6WTux?lang=en&from=initPlay&returnUrl=https%3A%2F%2Fwww.ke.sportpesa.com%2Fcasino#!",
+        "type": 0,
+        "results": {
+            "English": [
+                {
+                    "parentMatchId": 27895902,
+                    "competitionId": 1,
+                    "homeTeam": "Everton",
+                    "awayTeam": "London Reds",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_EVE.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_ARS.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [
+                        "10"
+                    ],
+                    "awayScoreTimes": [
+                        "25",
+                        "57",
+                        "84"
+                    ],
+                    "halfTimeScores": "1-1",
+                    "result": "1-3",
+                    "randicap": 2
+                },
+                {
+                    "parentMatchId": 27895903,
+                    "competitionId": 1,
+                    "homeTeam": "Brighton",
+                    "awayTeam": "Spurs",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_BHA.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_TOT.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [
+                        "25",
+                        "69",
+                        "85"
+                    ],
+                    "awayScoreTimes": [
+                        "39"
+                    ],
+                    "halfTimeScores": "1-1",
+                    "result": "3-1",
+                    "randicap": 1
+                },
+                {
+                    "parentMatchId": 27895904,
+                    "competitionId": 1,
+                    "homeTeam": "Leicester",
+                    "awayTeam": "Fulham",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_LEI.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_FUL.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [],
+                    "awayScoreTimes": [],
+                    "halfTimeScores": "0-0",
+                    "result": "0-0",
+                    "randicap": 2
+                },
+                {
+                    "parentMatchId": 27895905,
+                    "competitionId": 1,
+                    "homeTeam": "N.Forest",
+                    "awayTeam": "Manchester Red",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_NOT.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_MNU.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [
+                        "11"
+                    ],
+                    "awayScoreTimes": [
+                        "36",
+                        "58",
+                        "69",
+                        "83"
+                    ],
+                    "halfTimeScores": "1-1",
+                    "result": "1-4",
+                    "randicap": 2
+                },
+                {
+                    "parentMatchId": 27895906,
+                    "competitionId": 1,
+                    "homeTeam": "Liverpool",
+                    "awayTeam": "Manchester Blue",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_LIV.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_MNC.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [],
+                    "awayScoreTimes": [
+                        "70"
+                    ],
+                    "halfTimeScores": "0-0",
+                    "result": "0-1",
+                    "randicap": 2
+                },
+                {
+                    "parentMatchId": 27895907,
+                    "competitionId": 1,
+                    "homeTeam": "Bournemouth",
+                    "awayTeam": "Newcastle",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_BOU.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_NEW.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [],
+                    "awayScoreTimes": [
+                        "9"
+                    ],
+                    "halfTimeScores": "0-1",
+                    "result": "0-1",
+                    "randicap": 2
+                },
+                {
+                    "parentMatchId": 27895908,
+                    "competitionId": 1,
+                    "homeTeam": "Southampton",
+                    "awayTeam": "A.Villa",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_SOU.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_AST.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [
+                        "69"
+                    ],
+                    "awayScoreTimes": [
+                        "54"
+                    ],
+                    "halfTimeScores": "0-0",
+                    "result": "1-1",
+                    "randicap": 2
+                },
+                {
+                    "parentMatchId": 27895909,
+                    "competitionId": 1,
+                    "homeTeam": "C. Palace",
+                    "awayTeam": "West Ham",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_CRY.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_WHU.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [
+                        "69"
+                    ],
+                    "awayScoreTimes": [
+                        "9",
+                        "53"
+                    ],
+                    "halfTimeScores": "0-1",
+                    "result": "1-2",
+                    "randicap": 1
+                },
+                {
+                    "parentMatchId": 27895910,
+                    "competitionId": 1,
+                    "homeTeam": "Brentford",
+                    "awayTeam": "Wolves",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_BRE.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_WOL.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [
+                        "54",
+                        "83"
+                    ],
+                    "awayScoreTimes": [
+                        "27"
+                    ],
+                    "halfTimeScores": "0-1",
+                    "result": "2-1",
+                    "randicap": 1
+                },
+                {
+                    "parentMatchId": 27895911,
+                    "competitionId": 1,
+                    "homeTeam": "Leeds",
+                    "awayTeam": "London Blues",
+                    "homeImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_LEE.png",
+                    "awayImage": "https://storage.googleapis.com/mbg-assets/team_logo/team_1_CHE.png",
+                    "seasonId": 2795754,
+                    "homeScoreTimes": [
+                        "85"
+                    ],
+                    "awayScoreTimes": [],
+                    "halfTimeScores": "0-0",
+                    "result": "1-0",
+                    "randicap": 2
+                }
+            ]
+        }
+    }
+}
