@@ -24,8 +24,14 @@ exports.createMatch = async (req, res) => {
             return res.status(400).json({ message: "Request body must contain one or more matches" });
         }
 
+        // Query the last match to determine current matchday
+        const lastMatch = await Match.findOne().sort({ matchday: -1 }).limit(1);
+        const currentMatchday = lastMatch ? lastMatch.matchday : 0;
+        const newMatchday = currentMatchday + 1;
+
         const simplified = fixtures[0].data.map((fixture, index) => ({
             match: fixture.parentMatchId,
+            matchday: newMatchday,
             homeTeam: fixture.homeTeam,
             awayTeam: fixture.awayTeam,
             H: fixture.markets?.[0]?.outcomes?.find(o => o.outcomeKey === "1")?.oddValue,
@@ -65,9 +71,9 @@ exports.createMatch = async (req, res) => {
             matches: matches.length,
             simplifiedprediction,
             predictions: {
-                virtualPredictor: predictions,
-                enhanced: enhancedResults,
-                momentum: momentumResults,
+                // virtualPredictor: predictions,
+                // enhanced: enhancedResults,
+                // momentum: momentumResults,
                 momentumHistory: momentumHistoryResults,
             },
         });
@@ -139,7 +145,7 @@ exports.updateMatchResultBatch = async (req, res) => {
                 updatePayload.outcome = result.split("-")[0].trim() > result.split("-")[1].trim() ? "H" : result.split("-")[0].trim() < result.split("-")[1].trim() ? "A" : "D";
                 updatePayload.homeScore = result.split("-")[0].trim();
                 updatePayload.awayScore = result.split("-")[1].trim();
-                if (resultDetails) updatePayload.resultDetails = resultDetails;
+                updatePayload.resultDetails = result;
 
                 const updatedMatch = await Match.findOneAndUpdate(
                     { match: parentMatchId },

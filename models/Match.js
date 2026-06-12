@@ -5,6 +5,10 @@ const matchSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  matchday:{
+    type: Number,
+    required: true,
+  },
   homeTeam: {
     type: String,
     required: true,

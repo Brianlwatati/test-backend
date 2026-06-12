@@ -167,6 +167,27 @@ async function predictBatchWithHistory(matches, options = {}) {
   return Promise.all(matches.map((match) => predictWithHistory(match, options, cache)));
 }
 
+// Diagnostic helper: fetch recent history and return simple info useful for debugging.
+// Use this to check whether the DB contains enough historical matches for a team
+// and to inspect the most recent match outcomes that the predictor would use.
+async function getTeamHistoryInfo(teamName, options = {}) {
+  if (!teamName) return { count: 0, meetsMin: false, history: [] };
+
+  const settings = { ...DEFAULT_HISTORY_OPTIONS, ...options };
+  const history = await fetchRecentHistory(teamName, settings);
+  const count = Array.isArray(history) ? history.length : 0;
+  const meetsMin = count >= (settings.minHistoryMatches || DEFAULT_HISTORY_OPTIONS.minHistoryMatches);
+
+  return {
+    teamName,
+    count,
+    meetsMin,
+    minRequired: settings.minHistoryMatches || DEFAULT_HISTORY_OPTIONS.minHistoryMatches,
+    history: history.slice(0, Math.min(10, count)),
+  };
+}
+
 module.exports = {
   predictBatchWithHistory,
+  getTeamHistoryInfo,
 };
