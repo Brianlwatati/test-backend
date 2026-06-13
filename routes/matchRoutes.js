@@ -7,6 +7,7 @@ const {
   getMatchById,
   updateMatch,
   deleteMatch,
+  getTeamMatchResultsByMatchday,
 } = require("../controllers/matches/matchController");
 
 const {
@@ -19,6 +20,7 @@ const {
 
 router.post("/", createMatch);
 router.get("/", getMatches);
+router.get("/results/table", getTeamMatchResultsByMatchday);
 router.get("/:id", getMatchById);
 router.put("/:id", updateMatch);
 router.put("/result/single", updateMatchResult);

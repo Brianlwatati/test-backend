@@ -4,7 +4,7 @@ const { randomUUID } = require("crypto");
 const { predictBatch } = require("./virtualPredictor");
 const { enhancePredictions } = require("./predictb");
 const { predictBatchMomentum } = require("./predictc");
-const { predictBatchWithHistory } = require("./predictHistory");
+const { predictBatchWithHistory } = require("./predicthhh");
 
 const addTeamIfNotExists = async (teamName) => {
     let teamDoc = await Team.findOne({ name: teamName });
@@ -21,65 +21,103 @@ exports.createMatch = async (req, res) => {
         const fixtures = Array.isArray(payload) ? payload : [payload];
 
         if (fixtures.length === 0) {
-            return res.status(400).json({ message: "Request body must contain one or more matches" });
+            return res.status(400).json({
+                message: "Request body must contain one or more matches",
+            });
         }
 
-        // Query the last match to determine current matchday
-        const lastMatch = await Match.findOne().sort({ matchday: -1 }).limit(1);
+        // Get the latest matchday and increment it
+        const lastMatch = await Match.findOne()
+            .sort({ matchday: -1 })
+            .limit(1);
+
         const currentMatchday = lastMatch ? lastMatch.matchday : 0;
         const newMatchday = currentMatchday + 1;
 
-        const simplified = fixtures[0].data.map((fixture, index) => ({
+        // Transform incoming fixtures
+        const simplified = fixtures[0].data.map((fixture) => ({
             match: fixture.parentMatchId,
             matchday: newMatchday,
             homeTeam: fixture.homeTeam,
             awayTeam: fixture.awayTeam,
-            H: fixture.markets?.[0]?.outcomes?.find(o => o.outcomeKey === "1")?.oddValue,
-            D: fixture.markets?.[0]?.outcomes?.find(o => o.outcomeKey === "X")?.oddValue,
-            A: fixture.markets?.[0]?.outcomes?.find(o => o.outcomeKey === "2")?.oddValue,
+            H: fixture.markets?.[0]?.outcomes?.find(
+                (o) => o.outcomeKey === "1"
+            )?.oddValue,
+            D: fixture.markets?.[0]?.outcomes?.find(
+                (o) => o.outcomeKey === "X"
+            )?.oddValue,
+            A: fixture.markets?.[0]?.outcomes?.find(
+                (o) => o.outcomeKey === "2"
+            )?.oddValue,
             homeRating: fixture.homeRating,
             awayRating: fixture.awayRating,
         }));
 
-
-        // Check if team exists and create if not
+        // Ensure teams exist
         for (const matchData of simplified) {
-            const { homeTeam, awayTeam } = matchData;
-            await addTeamIfNotExists(homeTeam);
-            await addTeamIfNotExists(awayTeam);
+            await addTeamIfNotExists(matchData.homeTeam);
+            await addTeamIfNotExists(matchData.awayTeam);
         }
 
-
-        const predictionInput = simplified.map((match, index) => ({
+        // Prepare prediction input
+        const predictionInput = simplified.map((match) => ({
             ...match,
-            homeTeam: fixtures[0].data[index].homeTeam,
-            awayTeam: fixtures[0].data[index].awayTeam,
             predictionId: randomUUID(),
         }));
 
+        // Save matches
         const matches = await Match.insertMany(simplified);
+
+        // Generate predictions
         const predictions = predictBatch(predictionInput);
-        const simplifiedprediction = predictions.map((prediction, index) => ({
+
+        const simplifiedPrediction = predictions.map((prediction, index) => ({
             [`match${index + 1}`]: prediction.outcome,
         }));
-        const enhancedResults = enhancePredictions(simplifiedprediction, predictionInput);
-        const momentumResults = predictBatchMomentum(predictionInput);
-        const momentumHistoryResults = await predictBatchWithHistory(predictionInput);
 
+        const enhancedResults = enhancePredictions(
+            simplifiedPrediction,
+            predictionInput
+        );
+
+        const momentumResults =
+            predictBatchMomentum(predictionInput);
+
+        const momentumHistoryResults =
+            await predictBatchWithHistory(predictionInput);
+
+        // Format response
+        const teams = simplified.map((match, index) => ({
+            match: index + 1,
+            matchId: match.match,
+            fixture: `${match.homeTeam} vs ${match.awayTeam}`,
+            homeTeam: match.homeTeam,
+            awayTeam: match.awayTeam,
+            odds: {
+                home: match.H,
+                draw: match.D,
+                away: match.A,
+            },
+            predictions: {
+                prediction1: predictions[index]?.outcome ?? null,
+                prediction2:
+                    enhancedResults[`match${index + 1}`] ?? null,
+                prediction3:
+                    momentumResults[index]?.outcome ?? null,
+                prediction4:
+                    momentumHistoryResults[index]?.outcome ?? null,
+            },
+        }));
 
         return res.status(201).json({
-            matches: matches.length,
-            simplifiedprediction,
-            predictions: {
-                // virtualPredictor: predictions,
-                // enhanced: enhancedResults,
-                // momentum: momentumResults,
-                momentumHistory: momentumHistoryResults,
-            },
+            totalFixtures: matches.length,
+            matchday: newMatchday,
+            teams,
         });
-     
     } catch (error) {
-        res.status(400).json({ message: error.message });
+        return res.status(400).json({
+            message: error.message,
+        });
     }
 };
 
@@ -135,7 +173,7 @@ exports.updateMatchResultBatch = async (req, res) => {
             const { parentMatchId,  result, resultDetails } = resMatch;
 
             if (!parentMatchId || !result) {
-                failed.push({ parentId: parentMatchId, reason: "Missing parentId or outcome" });
+                failed.push({ parentMatchId, reason: "Missing parentId or outcome" });
                 continue;
             }
 
@@ -156,10 +194,10 @@ exports.updateMatchResultBatch = async (req, res) => {
                 if (updatedMatch) {
                     updated.push(updatedMatch);
                 } else {
-                    failed.push({ parentId: parentMatchId, reason: "Match not found" });
+                    failed.push({ parentMatchId, reason: "Match not found" });
                 }
             } catch (err) {
-                failed.push({ parentId: parentMatchId, reason: err.message });
+                failed.push({ parentMatchId, reason: err.message });
             }
         }
 
